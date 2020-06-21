@@ -1,6 +1,6 @@
 const faunadb = require('faunadb')
 const q = faunadb.query
-const client = new faunadb.Client({secret: 'fnADrk_S37ACAUhcNFyzW-12-mNarO0G5lLXlN98'})
+const client = new faunadb.Client({secret: 'fnADu2tYloACDOEaNj7OhwziZSJ39ym4aXrjSleP'})
 
 const getFaunaposts = async () => {
     try{
